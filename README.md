@@ -49,12 +49,14 @@ Answer Display
 
 1️⃣ Clone the Repository
 git clone https://github.com/akshyrma23/ChatBot
+create .env file and add API_KEY in that
 
 cd rag_chatbot
 
 2️⃣ Create Virtual Environment
 python -m venv venv
 source venv/bin/activate   # Windows: venv\Scripts\activate
+
 
 3️⃣ Install Dependencies
 pip install -r requirements.txt
