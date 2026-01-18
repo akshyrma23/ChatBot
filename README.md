@@ -18,32 +18,11 @@ The goal of this project is to understand and implement:
 This project is not intended for production use but as a hands-on learning implementation.
 
 
-Architecture Overview
-User
-  │
-  ▼
-Streamlit UI
-  │
-  ▼
-Document Loader
-  │
-  ▼
-Text Splitter
-  │
-  ▼
-Embedding Generator
-  │
-  ▼
-FAISS Vector Store
-  │
-  ▼
-Retriever
-  │
-  ▼
-LLM (GPT-4o-mini)
-  │
-  ▼
-Answer Display
+**Architecture Overview
+**
+
+ User -> Streamlit UI -> Document Loader -> Text Splitter -> Embedding Generator -> FAISS Vector Store -> Retriever -> LLM (GPT-4o-mini) ->Answer Display
+
 
 
 
